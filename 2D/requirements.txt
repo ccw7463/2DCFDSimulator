@@ -1,0 +1,8 @@
+torch==2.1.2
+matplotlib==3.8.2
+numpy==1.26.4
+opencv-python==4.7.0
+scipy==1.13.1
+pandas==1.5.3
+tqdm==4.66.1
+ml-collections
