@@ -1,7 +1,7 @@
 from torch.utils.data import Dataset
 from utils.util import *
 
-class CustomDatasetUNet(Dataset):
+class CustomDataset(Dataset):
     def __init__(self, transform=None, target_transform=None):
         
         # 입/출력 데이터 가져오기 (운전정보 제외)
